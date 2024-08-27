@@ -1,0 +1,85 @@
+body {
+    background-image: url('img3.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* body{
+    background-color: rgba(172, 168, 168, 0.849);
+} */
+table {
+    width: 98%;
+    margin: 35px auto;
+    background: rgba(133, 136, 133, 0);
+}
+
+table.list {
+    text-align: center;
+    width: 100%;
+}
+
+td {
+    border: 2px solid rgb(100, 70, 25);
+    text-align: left;
+    padding: 8px 15px;
+}
+label{
+    font-size: 19px;
+}
+tr:nth-child(even),
+table.list thread > tr {
+    background-color: rgba(0, 255, 255, 0.021);
+}
+
+#productnumber,#product, #qty, #perprice {
+    background: rgba(133, 136, 133, 0);
+    font-size: 15px;
+
+}
+input[type="text"],
+input[type="number"] {
+    width: 91%;
+    padding: 12px 20px;
+    margin: 25px 0;
+    display: inline-block;
+    border: 3px solid rgb(50, 20, 30);
+    border-radius: 4px;
+    color:17px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    /* border: none; */
+    border-radius: 30px;
+    font-size: 23px;
+    color:rgb(10, 0, 0);
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background: #dd0522f1;
+    color:white;
+}
+
+button {
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background: #db0332f8;
+    color:white
+}
